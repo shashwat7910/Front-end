@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Evaluator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" 
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><i class="fas ">Finance</i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <section id="facilities">
+      <div class="container">
+        <div class="title">
+          <h1>Facilities</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+          <div class="card text-center">
+            <img src="https://th.bing.com/th/id/OIP.IhGijgoVTEs0_4rPuUXboQHaE8?pid=ImgDet&rs=1" alt="" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Rs 18000</p>
+            <button type="button" class="btn btn-primary">Add to cart</button>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="https://easyblogthemes.com/wp-content/uploads/2018/02/Search-Engine-Optimization.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+              <h5 class="card-title">Search Engine Optimization</h5>
+              <p class="card-text">Rs 30000</p>
+              <button type="button" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <img src="https://www.analyticsinsight.net/wp-content/uploads/2020/07/Data-Analytics.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">Data Analytics</h5>
+                <p class="card-text">Rs 20000</p>
+                <button type="button" class="btn btn-primary">Add to cart</button>
+                </div>
+              </div>
+              </div>
+        </div>
+      </div>
+    </section>
+    <section id="budget">
+      <div class="container">
+        <h4 id="totalp">Total Price :</h4>
+      </div>
+    </section>
+    <script src="actions.js"></script>
+</body>
+</html>
