@@ -23,7 +23,6 @@ class Info{
 
 function fun(){
    var ref = document.getElementById("tbody");
-   //console.log(localStorage);
    var i : any;
    var total = 0;
    console.log(localStorage.length);
