@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add To Cart System</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" 
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="./index.html"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse navbar-height-nav inline" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+              
+          <li  class="nav-item">
+            <a class="nav-link" href="./cart.html">Checkout<i class="fas fa-cart-plus"></i></a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+    <section id="facilities">
+        <div class="container">
+          <div class="title">
+            <h1>Facilities</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+            <div class="card text-center">
+              <img src="https://th.bing.com/th/id/OIP.IhGijgoVTEs0_4rPuUXboQHaE8?pid=ImgDet&rs=1" alt="" class="card-img-top">
+              <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">18000</p>
+              <a  class="btn btn-primary" onclick="setCookie('rem-1','add-1','Web Development +18000')" id="add-1">Add To Cart</a>
+              <a class="btn btn-primary" onclick="remCookie('rem-1','add-1','Web Development + 18000')" style="visibility: hidden;" id="rem-1">Remove From Cart</a>
+        
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <img src="https://easyblogthemes.com/wp-content/uploads/2018/02/Search-Engine-Optimization.jpg" alt="" class="card-img-top">
+                <div class="card-body">
+                <h5 class="card-title">Search Engine Optimization</h5>
+                <p class="card-text">30000</p>
+                <a  class="btn btn-primary" onclick="setCookie('rem-2','add-2','Search Engine Optimization + 30000')" id="add-2">Add To Cart</a>
+                <a class="btn btn-primary" onclick="remCookie('rem-2','add-2','Search Engine Optimization + 30000')" style="visibility: hidden;" id="rem-2">Remove From Cart</a>
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center">
+                  <img src="https://www.analyticsinsight.net/wp-content/uploads/2020/07/Data-Analytics.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Data Analytics</h5>
+                  <p class="card-text">20000</p>
+                  <a  class="btn btn-primary" onclick="setCookie('rem-3','add-3','Data Analytics + 20000')" id="add-3">Add To Cart</a>
+                  <a class="btn btn-primary" onclick="remCookie('rem-3','add-3','Data Analytics + 20000')" style="visibility: hidden;" id="rem-3">Remove From Cart</a>
+                  </div>
+                </div>
+                </div>
+          </div>
+        </div>
+      </section>
+<script src="scripts.js" defer = "true"></script>
+
+<br>
+<br>
+</body>
+</html>
+
